@@ -16,7 +16,8 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
      
           script: |
-            mkdir test 
-            cd test 
-            git clone https://github.com/olehpitsun/cicdex.git 
+            mkdir oleksandrazinkevych
+            cd oleksanfrazinkevych
+            git clone https://github.com/oleksandra18e8widtwiq/PracriceWork.git
             echo 'Deployment successful to digital ocean d1' 
+
